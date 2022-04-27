@@ -11,6 +11,8 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Login from "./Components/Login";
 import Signup from "./Components/Signup";
 import Sim from "./Components/Sim";
+import Mobile from "./Components/Mobile";
+import Devices from "./Components/Devices";
 
 function App() {
   return (
@@ -20,6 +22,8 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/sims" element={<Sim />} />
+          <Route path="/mobile" element={<Mobile />} />
+          <Route path="/devices" element={<Devices />} />
           <Route path="/login" element={<Login />} />
           <Route path="/signup" element={<Signup />} />
         </Routes>

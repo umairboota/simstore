@@ -6,7 +6,7 @@ export default function Navbar() {
 
   
   return (
-    <header  className=" z-50 w-full  text-green-600 shadow-2xl body-font">
+    <header  className=" z-50 w-full text-green-600 shadow-2xl body-font">
       <div className=" border-gray-900 container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
         <Link
           to="/"

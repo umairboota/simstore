@@ -17,7 +17,6 @@ export default function Sim() {
       <section className=" mb-11">
         <img src={image} alt="Loading" style={style} />
         <div className="flex items-center justify-center mt-5 border border-white shadow-none rounded-lg ml-52 py-2 mr-28 text-white bg-gradient-to-br from-green-400 to-blue-800">
-          {/* <p className="flex justify-between mr-96"></p> */}
           <label className="text-lg mr-3" htmlFor="Serial Number">
             Select Company:
           </label>
