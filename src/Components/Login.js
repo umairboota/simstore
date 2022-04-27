@@ -40,7 +40,7 @@ export default function Login() {
   }
 
   return (
-    <div className=" bg-white mb-8 flex justify-end ">
+    <div className=" mb-8 flex justify-end ">
       <div className="max-w-md w-full mx-auto">
         {/* <div className="text-5xl font-bold italic mt-2  text-right">
         </div> */}
