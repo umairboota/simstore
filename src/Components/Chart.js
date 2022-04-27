@@ -3,7 +3,7 @@ import React from 'react'
 
 export default function Chart({image,title}) {
   return (
-    <div class="mt-8 my-8 inline-flex">
+    <div className="mt-8 my-8 inline-flex">
           <div className=" ">
             <img className="h-12  " src={image} alt="Loading..." />
             <a href='/' className="text-2xl ">{title}</a>

@@ -18,7 +18,7 @@ export default function SimCard({ sNumber }) {
                       RS.1000
                     </h3>
                   </div>
-                  <div class="mt-8 text-sm font-serif ">
+                  <div className="mt-8 text-sm font-serif ">
                     <h2>1000 on-net mints </h2>
                     <h2>300 offnet mints </h2>
                     <h2>5GB MB's </h2>
