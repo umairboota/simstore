@@ -1,6 +1,5 @@
-// import logo from './logo.svg';
 import "./index.css";
-import "./App.css";
+// import "./App.css";
 import "./Style/styles.css";
 
 import Navbar from "./Components/Navbar";
@@ -13,6 +12,8 @@ import Signup from "./Components/Signup";
 import Sim from "./Components/Sim";
 import Mobile from "./Components/Mobile";
 import Devices from "./Components/Devices";
+import About from "./Components/About";
+import Abc from "./Components/Abc";
 
 function App() {
   return (
@@ -24,8 +25,10 @@ function App() {
           <Route path="/sims" element={<Sim />} />
           <Route path="/mobile" element={<Mobile />} />
           <Route path="/devices" element={<Devices />} />
+          <Route path="/about" element={<About />} />
           <Route path="/login" element={<Login />} />
           <Route path="/signup" element={<Signup />} />
+          <Route path="/abc" element={<Abc />} />
         </Routes>
         <Footer />
       </BrowserRouter>

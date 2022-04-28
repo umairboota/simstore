@@ -3,7 +3,7 @@ import logo from "../images/logo.png"
 
 export default function Logo() {
     const style ={
-        height: 55,
+        height: 60,
     }
   return (
     <div>
