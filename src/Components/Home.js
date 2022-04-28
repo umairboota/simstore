@@ -9,6 +9,7 @@ import chat from "../images/chat.png";
 import sim from "../images/sim.png";
 import recharge from "../images/recharge.png";
 import post from "../images/postpaid.png";
+import { Link } from "react-router-dom";
 
 export default function Home() {
   let style = {
@@ -21,9 +22,9 @@ export default function Home() {
         <div className="flex flex-wrap w-full mb-20">
           <div className="lg:w-1/2 w-full px-10 mb-6 lg:mb-0">
             <h1 className="sm:text-3xl text-2x font-bold title-font mb-2 text-gray-900">
-              Pitchfork Kickstarter Taxidermy
+              SimPhone.Store
             </h1>
-            <h4>Lorem ipsum dolor sit amet</h4>
+            <h4 className="text-green-400 italic">We connect you...</h4>
             {/* Line code  */}
             <div className="h-1 w-20 bg-green-500 mt-4 rounded"></div>
             <p className="mt-4  text-black text-lg">
@@ -31,6 +32,15 @@ export default function Home() {
               ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus,
               luctus nec ullamcorper mattis, pulvinar dapibus leo.
             </p>
+            <button className="mt-8 -ml-8">
+            <Link
+              to="/login"
+        
+              className="hover:text-white font-[Poppins] py-1 px-4 rounded-lg border-2 text-xl border-green-600 md:ml-8  hover:bg-green-400 duration-500"
+            >
+              Let's Explore
+            </Link>
+          </button>
           </div>
           <div className="">
             <img className="img" style={style} src={call} alt="" />
@@ -45,31 +55,27 @@ export default function Home() {
             <h2 className="text-xl text-green-800">Accodion</h2>
           </div>
         </div>
-        
-        <table>
-          <tr >
-            <th className="inline-flex py-7 px-5">
+        <div>
+
+            <a href="/" className="inline-flex py-7 px-5">
               <Chart image={sim} title="Cash on Delivery" />
-            </th>
-            <th className="inline-flex py-7 px-5">
+            </a>
+            <a href="/" className="inline-flex py-7 px-5">
               <Chart image={cart} title="24/7 Service" />
-            </th>
-            <th className="inline-flex py-7 px-5" >
+            </a>
+            <a href="/" className="inline-flex py-7 px-5" >
               <Chart image={app} title="Apps" />
-            </th>
-          </tr>
-          <tr >
-            <th className="inline-flex py-7 px-5">
+            </a>
+            <a href="/" className="inline-flex py-7 px-5">
               <Chart image={chat} title="Customized Products" />
-            </th>
-            <th className="inline-flex py-7 px-5">
+            </a>
+            <a href="/" className="inline-flex py-7 px-5">
               <Chart image={recharge} title="Your Tech Solution" />
-            </th>
-            <th className="inline-flex py-7 px-5">
+            </a>
+            <a href="/" className="inline-flex py-7 px-5">
               <Chart image={post} title="Customer Services" />
-            </th>
-          </tr>
-        </table>
+            </a>
+        </div>
         <div className=" color-1">
           <div className="">
             <h2 className="text-white text-4xl text-right text-1 ">

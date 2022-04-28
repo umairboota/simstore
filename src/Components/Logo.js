@@ -1,9 +1,9 @@
 import React from "react";
-import logo from "../images/logo.jpg"
+import logo from "../images/logo.png"
 
 export default function Logo() {
     const style ={
-        height: 32,
+        height: 55,
     }
   return (
     <div>
