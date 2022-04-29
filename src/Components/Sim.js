@@ -7,15 +7,11 @@ import SimCard from "./SimCard";
 export default function Sim() {
   const [sim, setSim] = useState("");
   const [sNumber, setSNumber] = useState();
-  // const modal = () => {};
-  let style = {
-    height : 650,
-    width : 1400
-  }
+  
   return (
     <div className="mb-11">
       <section className=" mb-11">
-        <img src={image} alt="Loading" style={style} />
+        <img src={image} alt="Loading" className="banner-size" />
         <div className="flex items-center justify-center mt-5 border border-white shadow-none rounded-lg ml-52 py-2 mr-28 text-white bg-gradient-to-br from-green-400 to-blue-800">
           <label className="text-lg mr-3" htmlFor="Serial Number">
             Select Company:

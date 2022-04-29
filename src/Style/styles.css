@@ -90,3 +90,12 @@
   align-self: auto;
   order: 0;
 }
+
+.logo-size{
+  height: 60px;
+}
+
+.banner-size{
+  width : 1400px;
+  height : 650px;
+}

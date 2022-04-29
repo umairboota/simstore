@@ -3,8 +3,11 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+//redux store
 import {createStore} from 'redux';
+//all reducers
 import allReducers from './Reducers';
+//provider
 import { Provider } from 'react-redux'; 
 
 

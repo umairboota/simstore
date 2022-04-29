@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
+import logo from "../images/logo.png";
 
 export default function Login() {
 
@@ -20,16 +21,13 @@ export default function Login() {
     setIsSubmit(true)
   }
   useEffect(()=>{
-    // console.log(formErrors); //Error
     if(Object.keys(formErrors).length===0 && isSubmit){
-      // console.log(formValue);  //form values
     }
   },[formErrors])
 
   const validate =(values)=>{
 
     const errors ={};
-    // const regex = /^[^\s@]+@[^\s@]=\.[^\s@]{2,}$/i;
     if (!values.email){
       alert( "Email is Required")
     }
@@ -42,11 +40,8 @@ export default function Login() {
   return (
     <div className=" mb-8 flex justify-end ">
       <div className="max-w-md w-full mx-auto">
-        {/* <div className="text-5xl font-bold italic mt-2  text-right">
-        </div> */}
-        <img className="mt-5" src="images/sim.png" alt="Loading..." />
+        <img className="mt-40" src={logo} alt="Loading..." />
       </div>
-      {/* <pre>{JSON.stringify(formValue, undefined,2)}</pre> */}
       <div className="max-w-md w-full mx-auto justify-end mt-4 bg-white p-8 shadow-2xl rounded-3xl">
         <form action="" className="space-y-6" onSubmit={onSubmit} >
           <div>

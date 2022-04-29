@@ -10,3 +10,9 @@ export const decrement = ()=> {
         type:"DECREMENT"
     };
 };
+
+export const logged =()=>{
+    return{
+        type: "SIGN_IN"
+    }
+}

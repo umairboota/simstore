@@ -5,15 +5,12 @@ import banner from "../images/phonebanner.png";
 
 
 export default function Mobile() {
-    let style = {
-        height : 650,
-        width : 1400
-      }
+    
   return (
     <div>
       <div className="mb-11">
         <section className=" mb-11">
-          <img src={banner} alt="Loading" style={style} />
+          <img src={banner} alt="Loading..." className="banner-size" />
           <div className="flex items-center justify-center mt-5 border border-white shadow-none rounded-lg ml-52 py-2 mr-28 text-white bg-gradient-to-br from-green-400 to-blue-800">
             <label className="text-lg mr-3" htmlFor="Serial Number">
               Select Company:

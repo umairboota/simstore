@@ -2,6 +2,7 @@ import React from 'react'
 import { useSelector, useDispatch } from 'react-redux';
 import { increment } from '../Actions';
 import { decrement } from '../Actions';
+import { logged } from '../Actions';
 
 export default function Abc() {
   const counter = useSelector(state => state.counter);
@@ -17,8 +18,8 @@ export default function Abc() {
       <button 
       onClick={()=> dispatch(decrement())}
 
-      >-</button>
-      <h2>{isLogg ? "hello":"Not logged in"} </h2>
+      >-</button><br />
+      <button onClick={()=>dispatch(logged())}>{isLogg ? "hello":"Not logged in"} </button>
     </div>
   )
 }
