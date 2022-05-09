@@ -10,7 +10,7 @@ import sim from "../images/sim.png";
 import recharge from "../images/recharge.png";
 import post from "../images/postpaid.png";
 import { Link } from "react-router-dom";
-
+// import Slider from "./Components/Slider";
 export default function Home() {
   let style = {
     float: "right",
@@ -19,6 +19,9 @@ export default function Home() {
   return (
     <section className="text-gray-600 body-font">
       <div className=" py-24 mx-auto">
+        <div>
+          {/* <Slider/> */}
+        </div>
         <div className="flex flex-wrap w-full mb-20">
           <div className="lg:w-1/2 w-full px-10 mb-6 lg:mb-0">
             <h1 className="sm:text-3xl text-2x font-bold title-font mb-2 text-gray-900">
@@ -113,8 +116,7 @@ export default function Home() {
                   </div>
                   <div className="text-center  mb-8 mt-auto">
                     <button
-                      className="color-2 hover:text-white font-[Poppins] py-1 px-4 rounded-lg border-2 text-xl border-green-600 md:ml-8  hover:bg-green-400  
-    duration-500"
+                      className="color-2 hover:text-white font-[Poppins] py-1 px-4 rounded-lg border-2 text-xl border-green-600 md:ml-8  hover:bg-green-400 duration-500"
                     >
                       Buy now
                     </button>
@@ -146,8 +148,7 @@ export default function Home() {
                   </div>
                   <div className="w-full text-center mb-8 mt-auto">
                     <button
-                      className="color-2 hover:text-white font-[Poppins] py-1 px-4 rounded-lg border-2 text-xl border-green-600 md:ml-8  hover:bg-green-400  
-    duration-500"
+                      className="color-2 hover:text-white font-[Poppins] py-1 px-4 rounded-lg border-2 text-xl border-green-600 md:ml-8  hover:bg-green-400 duration-500"
                     >
                       Buy now
                     </button>
@@ -177,8 +178,7 @@ export default function Home() {
                   </div>
                   <div className="text-center pt-8 mb-8 mt-auto">
                     <button
-                      className="color-2 hover:text-white font-[Poppins] py-1 px-4 rounded-lg border-2 text-xl border-green-600 md:ml-8  hover:bg-green-400  
-    duration-500"
+                      className="color-2 hover:text-white font-[Poppins] py-1 px-4 rounded-lg border-2 text-xl border-green-600 md:ml-8  hover:bg-green-400   duration-500"
                     >
                       Buy now
                     </button>
