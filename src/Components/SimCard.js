@@ -7,7 +7,7 @@ export default function SimCard({ sNumber }) {
       <div className="container mb-2 flex mx-auto w-full items-center justify-center">
         <ul className=" p-4">
           <li>
-            <div className="select-none flex flex-1 items-center duration-500 ease-in-out transition-shadow Form hover:-translate-y-2 rounded-2xl border-2 p-6 hover:shadow-2xl ">
+            <div className="select-none flex flex-1 items-center duration-500 Form hover:-translate-y-2 rounded-2xl border-2 p-6 hover:shadow-2xl ">
               <div className=" pl-1 mr-16 p-0">
                 <div className="font-medium">
                   <div>
@@ -18,21 +18,21 @@ export default function SimCard({ sNumber }) {
                     </h2>
                     <br />
                     <div className="inline-flex">
-                      <div className=" border-4 rounded-lg mr-4 mt-5">
+                      <div className=" border-4 rounded-xl mr-4 mt-5">
                         {sNumber}-0000000
-                        <button className="hover:text-white  text-sm rounded-xl border-2 border-green-600 md:ml-8  hover:bg-green-400 duration-500">
+                        <button className="ml-2 text-sm rounded-3xl border-2 bg-green-800 text-white  hover:bg-green-400 duration-500">
                           Buy Now
                         </button>
                       </div>
                       <div className=" border-4 rounded-lg mr-4 mt-5">
                         {sNumber}-0000000
-                        <button className="hover:text-white text-sm rounded-xl border-2 border-green-600 md:ml-8  hover:bg-green-400 duration-500">
+                        <button className="ml-2 text-sm rounded-3xl border-2 bg-green-800 text-white  hover:bg-green-400 duration-500">
                           Buy Now
                         </button>
                       </div>
                       <div className=" border-4 rounded-lg mr-4 mt-5">
                         {sNumber}-0000000
-                        <button className="hover:text-white text-sm rounded-xl border-2 border-green-600 md:ml-8  hover:bg-green-400 duration-500">
+                        <button className="ml-2 text-sm rounded-3xl border-2 bg-green-800 text-white  hover:bg-green-400 duration-500">
                           Buy Now
                         </button>
                       </div>
