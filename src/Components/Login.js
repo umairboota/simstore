@@ -10,7 +10,7 @@ export default function Login() {
   const [isSubmit, setIsSubmit] = useState(false);
 
   const handleChange =(e)=>{
-    
+    e.preventDefault();
     const {name, value} = e.target;
     setformValue({...formValue, [name]:value});
   }

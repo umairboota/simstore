@@ -13,7 +13,6 @@ import Sim from "./Components/Sim";
 import Mobile from "./Components/Mobile";
 import Devices from "./Components/Devices";
 import About from "./Components/About";
-import Abc from "./Components/Abc";
 import Mission from "./Components/Mission";
 import Privacy from "./Components/Privacy";
 import Copyright from "./Components/Copyright";
@@ -34,7 +33,7 @@ function App() {
           <Route path="/copyright" element={<Copyright />} />
           <Route path="/login" element={<Login />} />
           <Route path="/signup" element={<Signup />} />
-          <Route path="/abc" element={<Abc />} />
+          
         </Routes>
         <Footer />
       </BrowserRouter>
